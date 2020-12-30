@@ -73,7 +73,7 @@
 	top: 0px;
 	overflow: visible;
 }
-#bf {
+#{
 	left: 0px;
 	top: 100px;
 	position: absolute;
@@ -87,10 +87,19 @@
 	font-size: 14px;
 	color: rgba(64,64,64,1);
 }
+div#bf{
+	position: relative;
+	margin-left: 320px;
+	top: 158px;
+	font-family: NotoSansCJKkr-Medium;
+	font-size: 28px;
+	color: #404040;
+}
+
 #_ba {
 	left: 0px;
-	top: 0px;
-	position: absolute;
+	top: 80px;
+	position: relative;
 	overflow: visible;
 	width: 27px;
 	white-space: nowrap;
